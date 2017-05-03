@@ -18,3 +18,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Private MQTT and WiFi password files
+PrivateMQTT.h
+PrivateWifi.h
