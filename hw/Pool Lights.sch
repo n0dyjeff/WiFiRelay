@@ -32,7 +32,7 @@ LIBS:relays
 LIBS:switches
 LIBS:leds
 LIBS:ESP8266
-LIBS:Pool Lights-cache
+LIBS:WifiRelay
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500

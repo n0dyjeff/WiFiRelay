@@ -1,4 +1,4 @@
-update=5/2/2017 1:32:33 PM
+update=5/3/2017 1:58:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName30=D:/Users/jeff.DAVIS/KiCadLibraries/library/relays
 LibName31=D:/Users/jeff.DAVIS/KiCadLibraries/library/switches
 LibName32=D:/Users/jeff.DAVIS/KiCadLibraries/library/leds
 LibName33=D:/Users/jeff.DAVIS/GitHub/kicad-ESP8266/ESP8266
+LibName34=WifiRelay

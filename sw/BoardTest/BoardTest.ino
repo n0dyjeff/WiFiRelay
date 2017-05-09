@@ -1,11 +1,9 @@
 // Board test code for WiFi Pool Light controller board
-// On a 1 second cycle
-//    - Turn on Relay 1
-//    - Write "Relay 1" to serial
-//    - Delay 1 second
-//    - Turn on Relay 2
-//    - Write "Relay " to serial
-//    - Repeat
+// Turn on and off the relays in a "counting" sequence, e.g.
+// 00 01 10 11 and repeat
+// Simultaneously write action to serial output
+// Allow control via MQTT to start/stop timers and set state of
+// individual relays.
 
 //Requires PubSubClient found here: https://github.com/knolleary/pubsubclient
 #include <PubSubClient.h>
@@ -21,9 +19,9 @@
 #define RELAY_2_PIN 4          // This is NodeMCU D1
 #define CYCLE_TIME  5000       // change state every 5000 milliseconds
 
-void mqtt_callback(char* topic, byte* payload, unsigned int length);
-void reconnect();
-String macToStr(const uint8_t* mac);
+void          mqtt_callback(char* topic, byte* payload, unsigned int length);
+void          reconnect();
+String        macToStr(const uint8_t* mac);
 
 WiFiClient    wifiClient;
 PubSubClient  client(wifiClient);
@@ -38,17 +36,17 @@ void setup() {
   Serial.begin(115200);
   delay(100);
   
-  //start wifi subsystem
-  WiFi.begin(WIFI_SSID, WIFI_PW);
-  //wait a bit before starting the main loop
-  delay(2000);
+  Relay_1.StartTimer(CYCLE_TIME);
+  Relay_2.StartTimer(CYCLE_TIME * 2);
 
   Serial.println("Starting ESP-07 Pool Light Controller Test");
 
   //attempt to connect to the WIFI network and then connect to the MQTT server
+  //start wifi subsystem
+  WiFi.begin(WIFI_SSID, WIFI_PW);
+  //wait a bit before starting the main loop
+  delay(2000);
   reconnect();
-  Relay_1.StartTimer(CYCLE_TIME);
-  Relay_2.StartTimer(CYCLE_TIME * 2);
 }
 
 void loop(){
