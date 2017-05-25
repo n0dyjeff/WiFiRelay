@@ -1688,7 +1688,7 @@
       (net 8 /RXD))
     (pad 16 thru_hole oval (at 14 0 270) (size 2.5 1.1) (drill 0.65 (offset 0.7 0)) (layers *.Cu *.Mask F.Paste F.SilkS)
       (net 7 /TXD))
-    (model ${ESPLIB}/ESP8266.3dshapes/ESP-07v2.wrl
+    (model ../kicad-ESP8266/ESP8266.3dshapes/ESP-07v2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
