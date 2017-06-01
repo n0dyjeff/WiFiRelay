@@ -1,10 +1,10 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-04-22 revision b38541345)-makepkg*
-G04 #@! TF.CreationDate,2017-04-30T17:34:09-07:00*
-G04 #@! TF.ProjectId,Pool Lights,506F6F6C204C69676874732E6B696361,rev?*
+G04 #@! TF.CreationDate,2017-05-30T09:40:34-07:00*
+G04 #@! TF.ProjectId,WifiRelay,5769666952656C61792E6B696361645F,rev?*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2017-04-22 revision b38541345)-makepkg) date 04/30/17 17:34:09*
+G04 Created by KiCad (PCBNEW (2017-04-22 revision b38541345)-makepkg) date 05/30/17 09:40:34*
 %MOMM*%
 %LPD*%
 G01*
