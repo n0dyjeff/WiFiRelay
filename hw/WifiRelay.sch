@@ -39,7 +39,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "WiFi Pool Light Controller"
+Title "WiFi Relay Controller"
 Date ""
 Rev "-"
 Comp "Jeff Davis N0DY"

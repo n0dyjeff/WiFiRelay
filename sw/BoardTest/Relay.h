@@ -42,6 +42,8 @@ public:
   
   bool HandleMQTT(String& Topic, String& Payload);
   bool StartTimer(int Interval);
+  void Disable();
+  void Enable();
   
 };
 
