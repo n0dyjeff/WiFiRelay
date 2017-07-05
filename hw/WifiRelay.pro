@@ -1,4 +1,4 @@
-update=5/3/2017 1:58:22 PM
+update=7/4/2017 7:40:14 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=D:/Users/jeff.DAVIS/KiCadLibraries/library
@@ -73,3 +63,13 @@ LibName31=D:/Users/jeff.DAVIS/KiCadLibraries/library/switches
 LibName32=D:/Users/jeff.DAVIS/KiCadLibraries/library/leds
 LibName33=D:/Users/jeff.DAVIS/GitHub/kicad-ESP8266/ESP8266
 LibName34=WifiRelay
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
