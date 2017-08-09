@@ -11,5 +11,13 @@ This project uses an ESP-07S module containing the ubiquitous ESP8266. The advan
 - Built in power supply allows direct connection to AC mains (85 ~ 305VAC). No external adapter required.
 - Two isolated, independantly controlled, normally open relay contacts rated at 10 amps each.
 - Connector for external WiFi antenna allows unit to be mounted within a metal enclosure.
-- (Planned) Over the air software updates.
+- Over the air software updates.
 - Wifi control via MQTT subscription.
+
+### Software
+(https://github.com/n0dyjeff/WifiRelay-Tasmota)
+
+### Availability
+All the documentation is here, but if you're not interested in building your own, I've built up a few of these and offered them on [Amazon](https://www.amazon.com/N0DY-WiFi-Controlled-Dual-Relay/dp/B072MKV8ZM), [ebay](http://www.ebay.com/itm/NEW-Web-Controlled-Dual-Relay-120-240-V-Smart-Home-Internal-External-Antenna-/152649721279), and [Tindie](https://www.tindie.com/products/n0dyjeff/wi-fi-controlled-dual-relay-wext-antenna-jack/).
+
+![alt text](https://github.com/n0dyjeff/WiFiRelay/blob/master/doc/Breakout.jpg "Relay Board")
