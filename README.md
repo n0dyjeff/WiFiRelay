@@ -1,6 +1,5 @@
 # WiFiRelay - Wifi controlled dual relay
-Dual relay controlled via WiFi. Uses ESP-07S module to allow external WiFi antenna.
-Preliminary information 03 May 2017 - capturing project state at time of board order.
+Dual relay controlled via WiFi. Uses ESP-07 module to allow external WiFi antenna.
 
 ### Motivation
 This project was motivated by a desire to control my pool lights from my home automation system. I first attempted to use a Sonoff wifi controlled module with a custom hacked firmware. This would have been successful except that the unit is housed in the metallic NEMA enclosure for the pool control hardware which acted as a Faraday cage, preventing the wifi signal from reaching the Sonoff unit.
