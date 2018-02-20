@@ -17,6 +17,6 @@ This project uses an ESP-07 module containing the ubiquitous ESP8266. The advant
 (https://github.com/n0dyjeff/WifiRelay-Tasmota)
 
 ### Availability
-All the documentation is here, but if you're not interested in building your own, I've built up a few of these and offered them on [Amazon](https://www.amazon.com/N0DY-WiFi-Controlled-Dual-Relay/dp/B072MKV8ZM), [ebay](http://www.ebay.com/itm/NEW-Web-Controlled-Dual-Relay-120-240-V-Smart-Home-Internal-External-Antenna-/152649721279), and [Tindie](https://www.tindie.com/products/n0dyjeff/wi-fi-controlled-dual-relay-wext-antenna-jack/).
+All the documentation is here, but if you're not interested in building your own, I've built up a few of these and offered them on [Amazon](https://www.amazon.com/N0DY-WiFi-Controlled-Dual-Relay/dp/B072MKV8ZM), [ebay](http://www.ebay.com/itm/NEW-Web-Controlled-Dual-Relay-120-240-V-Smart-Home-Internal-External-Antenna-/152649721279), and [Tindie](https://www.tindie.com/products/n0dyjeff/wi-fi-controlled-dual-relay-wext-antenna-jack/). It's also available direct from my via my web site, [N0DY Electronics](https://www.n0dy.com).
 
 ![alt text](https://github.com/n0dyjeff/WiFiRelay/blob/master/doc/Breakout.jpg "Relay Board")
