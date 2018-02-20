@@ -1,0 +1,4 @@
+#define MQTT_SERVER "DNS or IP of your MQTT server"
+#define MQTT_PORT   1883
+#define MQTT_USER   "Your MQTT username"
+#define MQTT_PW     "YourPasswordHere"
