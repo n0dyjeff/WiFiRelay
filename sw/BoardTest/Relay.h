@@ -2,7 +2,7 @@
 #define RELAY_H
 
 #include <Arduino.h>
-#include <SimpleTimer.h>
+#include "SimpleTimer.h"
 
 #define RELAY_OFF HIGH
 #define RELAY_ON  LOW

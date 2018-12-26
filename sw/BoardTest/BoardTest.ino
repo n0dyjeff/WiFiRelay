@@ -8,7 +8,7 @@
 //Requires PubSubClient found here: https://github.com/knolleary/pubsubclient
 #include <PubSubClient.h>
 #include <ESP8266WiFi.h>
-#include <SimpleTimer.h>
+#include "SimpleTimer.h"
 #include "Relay.h"
 
 //EDIT THESE FILES TO MATCH YOUR SETUP
