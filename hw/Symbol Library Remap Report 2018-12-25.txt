@@ -1,0 +1,68 @@
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\sym-lib-table” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\sym-lib-table-2018-12-25-09-27-47”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay.sch” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-2018-12-25-09-27-47.sch”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay.pro” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-2018-12-25-09-27-47.pro”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-cache.lib” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-cache-2018-12-25-09-27-47.lib”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-rescue.lib” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-rescue-2018-12-25-09-27-47.lib”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-rescue.dcm” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-rescue-2018-12-25-09-27-47.dcm”.
+Info: Adding library “WifiRelay-rescue”, file “${KIPRJMOD}/WifiRelay-rescue.lib” to project symbol library table.
+Info: Adding library “WifiRelay”, file “${KIPRJMOD}/WifiRelay.lib” to project symbol library table.
+Symbol “CONN_01X06” mapped to symbol library “WifiRelay-rescue”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “CONN_01X02” mapped to symbol library “WifiRelay-rescue”.
+Symbol “1N4148” mapped to symbol library “WifiRelay”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “PWR_FLAG” mapped to symbol library “power”.
+Symbol “PWR_FLAG” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “MMSS8050-H” mapped to symbol library “WifiRelay-rescue”.
+Symbol “MMSS8050-H” mapped to symbol library “WifiRelay-rescue”.
+Symbol “1N4148” mapped to symbol library “WifiRelay”.
+Symbol “CONN_01X02” mapped to symbol library “WifiRelay-rescue”.
+Symbol “CONN_01X02” mapped to symbol library “WifiRelay-rescue”.
+Symbol “IRM-02-5” mapped to symbol library “WifiRelay”.
+Symbol “LM1117-3.3” mapped to symbol library “WifiRelay-rescue”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “CP” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “SW_Push” mapped to symbol library “WifiRelay-rescue”.
+Symbol “SW_Push” mapped to symbol library “WifiRelay-rescue”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “ESP-07v2” mapped to symbol library “WifiRelay-rescue”.
+Symbol “Songle-SRD-05VDC-SL-C” mapped to symbol library “WifiRelay”.
+Symbol “Songle-SRD-05VDC-SL-C” mapped to symbol library “WifiRelay”.
+Symbol “+3.3V” mapped to symbol library “power”.
+Symbol “PC827” mapped to symbol library “WifiRelay-rescue”.
+Symbol “PC827” mapped to symbol library “WifiRelay-rescue”.
+Symbol “TEST_1P” mapped to symbol library “WifiRelay-rescue”.
+Symbol “TEST_1P” mapped to symbol library “WifiRelay-rescue”.
+Symbol “Jumper_Dual” mapped to symbol library “WifiRelay”.
+Symbol “PWR_FLAG” mapped to symbol library “power”.
+Info: Symbol library table mapping complete!
