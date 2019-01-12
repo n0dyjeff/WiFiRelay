@@ -1,4 +1,4 @@
-update=7/4/2017 7:40:14 AM
+update=Date
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=D:/Users/jeff.DAVIS/KiCadLibraries/library
+LibDir=C:/Users/jeff.DAVIS/Documents/KiCadLibraries/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,10 +58,10 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=D:/Users/jeff.DAVIS/KiCadLibraries/library/relays
-LibName31=D:/Users/jeff.DAVIS/KiCadLibraries/library/switches
-LibName32=D:/Users/jeff.DAVIS/KiCadLibraries/library/leds
-LibName33=D:/Users/jeff.DAVIS/GitHub/kicad-ESP8266/ESP8266
+LibName30=C:/Users/jeff.DAVIS/Documents/KiCadLibraries/library/relays
+LibName31=C:/Users/jeff.DAVIS/Documents/KiCadLibraries/library/switches
+LibName32=C:/Users/jeff.DAVIS/Documents/KiCadLibraries/library/leds
+LibName33=C:/Users/jeff.DAVIS/Documents/GitHub/kicad-ESP8266/ESP8266
 LibName34=WifiRelay
 [schematic_editor]
 version=1
