@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name WifiRelay)(type KiCad)(uri "$(KIPRJMOD)/WifiRelay.pretty")(options "")(descr ""))
 )

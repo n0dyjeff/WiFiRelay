@@ -1,4 +1,4 @@
-#define MQTT_SERVER "your mqtt server here"
+#define MQTT_SERVER "mars.davis.local"
 #define MQTT_PORT   1883
-#define MQTT_USER   "mqtt username"
-#define MQTT_PW     "mqtt password"
+#define MQTT_USER   "jeff"
+#define MQTT_PW     "goQANTNlQBRQ8ZKOGlcg"

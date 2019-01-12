@@ -97,4 +97,15 @@ bool MQTT_Relay::StartTimer(int Interval)
     Serial.println("No timer defined");
     return false;
   }
+}
+
+void MQTT_Relay::Disable()
+{
+  Timer->disable(TimerId);
+} 
+
+
+void MQTT_Relay::Enable()
+{
+  Timer->enable(TimerId);
 } 

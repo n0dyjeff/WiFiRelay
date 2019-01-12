@@ -1,4 +1,5 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
+.gitignore
 
 # Temporary files
 *.000
@@ -24,3 +25,4 @@ PrivateMQTT.h
 PrivateWifi.h
 
 *.bin
+*.sublime-*

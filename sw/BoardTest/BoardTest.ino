@@ -17,6 +17,7 @@
 
 #define RELAY_1_PIN 5          // This is NodeMCU D2
 #define RELAY_2_PIN 4          // This is NodeMCU D1
+#define PROG_SW 0              // GPIO 0 is the PROG switch
 #define CYCLE_TIME  5000       // change state every 5000 milliseconds
 
 void          mqtt_callback(char* topic, byte* payload, unsigned int length);
@@ -29,28 +30,80 @@ SimpleTimer   timer;
 MQTT_Relay    Relay_1(RELAY_1_PIN, "Relay 1", "test/Relay1", &timer);
 MQTT_Relay    Relay_2(RELAY_2_PIN, "Relay 2", "test/Relay2", &timer);
 char*         relayTopic = "test/#";
+int           bFirstPass = true;
 
 void setup() {
+
+  int bStep = 1;
 
   //start the serial line for debugging
   Serial.begin(115200);
   delay(100);
-  
   Relay_1.StartTimer(CYCLE_TIME);
+  Relay_1.Disable();
   Relay_2.StartTimer(CYCLE_TIME * 2);
+  Relay_2.Disable();
 
-  Serial.println("Starting ESP-07 Pool Light Controller Test");
+  Serial.println("Starting WiFi Relay v1.1 Board Test");
+
+  // Set up and read PROG_SW
+  pinMode(PROG_SW, INPUT);
+  bStep = digitalRead(PROG_SW);
+  if (bStep == HIGH)
+    Serial.println("PROG switch is not pressed.");
+  else
+    Serial.println("PROG switch is pressed.");
+
+  Serial.println("Relay 1 should be OPEN");
+  Serial.println("Relay 2 should be OPEN");
 
   //attempt to connect to the WIFI network and then connect to the MQTT server
   //start wifi subsystem
   WiFi.begin(WIFI_SSID, WIFI_PW);
   //wait a bit before starting the main loop
   delay(2000);
-  reconnect();
+  //reconnect();
 }
 
 void loop(){
 
+  int bStep = HIGH;
+  int pushTime = 0;
+
+  if (bFirstPass) {
+    bFirstPass = false;
+    do {
+      while (bStep == HIGH) {
+        timer.run();
+        client.loop();
+        delay(10);
+        bStep = digitalRead(PROG_SW);
+      };
+      // Falls through when PROG button pushed
+      pushTime = millis();
+      while (bStep == LOW) {
+        timer.run();
+        client.loop();
+        delay(10);
+        bStep = digitalRead(PROG_SW);
+      };
+      // falls through when PROG button released
+      if (millis() - pushTime < 1500) {
+        Relay_1.Toggle();
+        if (Relay_1.IsOn()) {
+          Relay_2.Off();
+          Serial.println("Relay 1 On");
+          Serial.println("Relay 2 Off");
+        }
+        else {
+          Relay_2.On();
+          Serial.println("Relay 1 Off");
+          Serial.println("Relay 2 On");
+        };
+      };
+    } while (millis() - pushTime < 1500);
+    reconnect();
+  };
   //reconnect if connection is lost
   if (!client.connected() && WiFi.status() == 3) {reconnect();}
 
@@ -60,7 +113,7 @@ void loop(){
   client.loop();
 
   //MUST delay to allow ESP8266 WIFI functions to run
-  delay(10); 
+  delay(20); 
 }
 
 void mqtt_callback(char* topic, byte* payload, unsigned int length) {
