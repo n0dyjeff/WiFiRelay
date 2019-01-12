@@ -29,7 +29,7 @@ PubSubClient  client(wifiClient);
 SimpleTimer   timer;
 MQTT_Relay    Relay_1(RELAY_1_PIN, "Relay 1", "test/Relay1", &timer);
 MQTT_Relay    Relay_2(RELAY_2_PIN, "Relay 2", "test/Relay2", &timer);
-char*         relayTopic = "test/#";
+const char*   relayTopic = "test/#";
 int           bFirstPass = true;
 
 void setup() {
