@@ -1,38 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays
-LIBS:switches
-LIBS:leds
-LIBS:ESP8266
-LIBS:WifiRelay
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -48,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X06 J2
+L conn:CONN_01X06 J2
 U 1 1 58F16837
 P 1050 4400
 F 0 "J2" H 1050 4750 50  0000 C CNN
@@ -61,7 +27,7 @@ F 5 "None" H 1050 4400 60  0001 C CNN "DPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L power1:GND #PWR01
 U 1 1 58F1B051
 P 7100 1400
 F 0 "#PWR01" H 7100 1150 50  0001 C CNN
@@ -72,7 +38,7 @@ F 3 "" H 7100 1400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR02
+L power1:+3.3V #PWR02
 U 1 1 58F1B2A6
 P 9850 1050
 F 0 "#PWR02" H 9850 900 50  0001 C CNN
@@ -83,7 +49,7 @@ F 3 "" H 9850 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR03
+L power1:+5V #PWR03
 U 1 1 58F1B33E
 P 7400 1050
 F 0 "#PWR03" H 7400 900 50  0001 C CNN
@@ -94,7 +60,7 @@ F 3 "" H 7400 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power1:GND #PWR04
 U 1 1 58F1C3F0
 P 6500 4400
 F 0 "#PWR04" H 6500 4150 50  0001 C CNN
@@ -105,7 +71,7 @@ F 3 "" H 6500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L power1:+5V #PWR05
 U 1 1 58F1C422
 P 5750 3700
 F 0 "#PWR05" H 5750 3550 50  0001 C CNN
@@ -116,7 +82,7 @@ F 3 "" H 5750 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L power1:+3.3V #PWR06
 U 1 1 58F1C454
 P 4150 3750
 F 0 "#PWR06" H 4150 3600 50  0001 C CNN
@@ -129,7 +95,7 @@ $EndComp
 Text Label 3600 4200 0    60   ~ 0
 ~RELAY1
 $Comp
-L +5V #PWR07
+L power1:+5V #PWR07
 U 1 1 58F1C6B8
 P 6800 3150
 F 0 "#PWR07" H 6800 3000 50  0001 C CNN
@@ -140,7 +106,7 @@ F 3 "" H 6800 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J3
+L conn:CONN_01X02 J3
 U 1 1 58F1C850
 P 8950 3450
 F 0 "J3" H 8950 3600 50  0000 C CNN
@@ -153,7 +119,7 @@ F 5 "ED2902-ND" H 8950 3450 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148 D2
+L WifiRelay:1N4148 D2
 U 1 1 58F1CFF3
 P 7050 5400
 F 0 "D2" H 7050 5500 50  0000 C CNN
@@ -167,7 +133,7 @@ F 6 "Value" H 7050 5400 60  0001 C CNN "Mouser"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR08
+L power1:GND #PWR08
 U 1 1 58F1D011
 P 6550 6200
 F 0 "#PWR08" H 6550 5950 50  0001 C CNN
@@ -178,7 +144,7 @@ F 3 "" H 6550 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR09
+L power1:+5V #PWR09
 U 1 1 58F1D017
 P 5800 5500
 F 0 "#PWR09" H 5800 5350 50  0001 C CNN
@@ -189,7 +155,7 @@ F 3 "" H 5800 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L power1:+3.3V #PWR010
 U 1 1 58F1D01D
 P 4200 5550
 F 0 "#PWR010" H 4200 5400 50  0001 C CNN
@@ -202,7 +168,7 @@ $EndComp
 Text Label 3650 6000 0    60   ~ 0
 ~RELAY2
 $Comp
-L +5V #PWR011
+L power1:+5V #PWR011
 U 1 1 58F1D033
 P 6800 5100
 F 0 "#PWR011" H 6800 4950 50  0001 C CNN
@@ -225,7 +191,7 @@ DTR
 Text Notes 650  4700 0    60   ~ 0
 GND
 $Comp
-L +3.3V #PWR012
+L power1:+3.3V #PWR012
 U 1 1 58F1FCB1
 P 1600 3950
 F 0 "#PWR012" H 1600 3800 50  0001 C CNN
@@ -236,7 +202,7 @@ F 3 "" H 1600 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L power1:+3.3V #PWR013
 U 1 1 58F1FD08
 P 2300 700
 F 0 "#PWR013" H 2300 550 50  0001 C CNN
@@ -247,7 +213,7 @@ F 3 "" H 2300 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power1:GND #PWR014
 U 1 1 58F1FE11
 P 2300 3100
 F 0 "#PWR014" H 2300 2850 50  0001 C CNN
@@ -268,7 +234,7 @@ TXD
 Text Label 1250 4350 0    60   ~ 0
 TXD
 $Comp
-L GND #PWR015
+L power1:GND #PWR015
 U 1 1 58F200D6
 P 1250 5100
 F 0 "#PWR015" H 1250 4850 50  0001 C CNN
@@ -283,7 +249,7 @@ DTR
 Text Label 3200 2150 0    60   ~ 0
 DTR
 $Comp
-L GND #PWR016
+L power1:GND #PWR016
 U 1 1 58F204E2
 P 3350 2900
 F 0 "#PWR016" H 3350 2650 50  0001 C CNN
@@ -294,7 +260,7 @@ F 3 "" H 3350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L device:C C3
 U 1 1 58F205C1
 P 2700 1000
 F 0 "C3" H 2725 1100 50  0000 L CNN
@@ -308,7 +274,7 @@ F 6 "80-C0805C104K8R" H 2700 1000 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power1:GND #PWR017
 U 1 1 58F2094B
 P 2700 1200
 F 0 "#PWR017" H 2700 950 50  0001 C CNN
@@ -323,7 +289,7 @@ NoConn ~ 1400 2150
 NoConn ~ 1400 2250
 NoConn ~ 1400 2350
 $Comp
-L +3.3V #PWR018
+L power1:+3.3V #PWR018
 U 1 1 58F21160
 P 900 1000
 F 0 "#PWR018" H 900 850 50  0001 C CNN
@@ -334,21 +300,21 @@ F 3 "" H 900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 1050 6300 1050
+	5950 1050 6250 1050
 Wire Wire Line
-	5950 1150 6300 1150
+	5950 1150 6150 1150
 Wire Wire Line
-	7100 1150 7100 1400
+	7100 1150 7100 1350
 Connection ~ 7400 1050
 Wire Wire Line
-	7100 1350 8500 1350
+	7100 1350 7400 1350
 Connection ~ 7100 1350
 Connection ~ 7400 1350
 Connection ~ 8500 1050
 Wire Wire Line
-	7100 1050 7700 1050
+	7100 1050 7400 1050
 Wire Wire Line
-	8300 1050 8950 1050
+	8300 1050 8500 1050
 Connection ~ 8000 1350
 Wire Wire Line
 	4150 3750 4150 3900
@@ -357,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3900 5000 3900
 Wire Wire Line
-	3600 4200 4450 4200
+	3600 4200 4150 4200
 Connection ~ 4150 4200
 Wire Wire Line
 	5600 3900 5750 3900
@@ -369,7 +335,6 @@ Wire Wire Line
 	6050 4100 6200 4100
 Wire Wire Line
 	6500 4300 6500 4400
-Connection ~ 6500 3750
 Wire Wire Line
 	7800 3750 8450 3750
 Wire Wire Line
@@ -389,7 +354,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 5700 5050 5700
 Wire Wire Line
-	3650 6000 4550 6000
+	3650 6000 4200 6000
 Connection ~ 4200 6000
 Wire Wire Line
 	5650 5700 5800 5700
@@ -402,10 +367,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 6100 6550 6200
 Wire Wire Line
-	6800 5100 7400 5100
+	6800 5100 7050 5100
 Connection ~ 7050 5100
 Wire Wire Line
-	6550 5700 7400 5700
+	6550 5700 7050 5700
 Connection ~ 7050 5700
 Wire Wire Line
 	7800 5100 8450 5100
@@ -422,7 +387,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3950 1600 4450
 Wire Wire Line
-	2300 700  2300 1150
+	2300 700  2300 750 
 Wire Wire Line
 	2300 2950 2300 3100
 Wire Wire Line
@@ -439,19 +404,19 @@ Wire Wire Line
 	2700 750  2700 850 
 Connection ~ 2300 750 
 Wire Wire Line
-	900  1600 900  1950
+	900  1600 900  1750
 Wire Wire Line
 	1300 1950 1400 1950
 Wire Wire Line
-	900  1000 900  1300
+	900  1000 900  1200
 Wire Wire Line
 	1300 1200 1300 1300
 Wire Wire Line
-	3200 2150 3900 2150
+	3200 2150 3700 2150
 Wire Wire Line
 	3700 1800 3700 2150
 $Comp
-L +3.3V #PWR019
+L power1:+3.3V #PWR019
 U 1 1 58F2144D
 P 3700 1350
 F 0 "#PWR019" H 3700 1200 50  0001 C CNN
@@ -471,7 +436,7 @@ Text Label 3200 1950 0    60   ~ 0
 Text Label 3200 2050 0    60   ~ 0
 ~RELAY2
 $Comp
-L PWR_FLAG #FLG020
+L power1:PWR_FLAG #FLG020
 U 1 1 58F21C14
 P 6250 950
 F 0 "#FLG020" H 6250 1025 50  0001 C CNN
@@ -485,7 +450,7 @@ Wire Wire Line
 	6250 950  6250 1050
 Connection ~ 6250 1050
 $Comp
-L PWR_FLAG #FLG021
+L power1:PWR_FLAG #FLG021
 U 1 1 58F21EA7
 P 6150 1300
 F 0 "#FLG021" H 6150 1375 50  0001 C CNN
@@ -501,11 +466,11 @@ Connection ~ 6150 1150
 Text Label 1250 4550 0    60   ~ 0
 RTS
 Wire Wire Line
-	600  1750 1400 1750
+	600  1750 900  1750
 Text Label 1000 1750 0    60   ~ 0
 RTS
 $Comp
-L R R7
+L device:R R7
 U 1 1 58F29CF3
 P 4400 3900
 F 0 "R7" V 4480 3900 50  0000 C CNN
@@ -519,7 +484,7 @@ F 6 "Value" H 4400 3900 60  0001 C CNN "Mouser"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
+L device:R R9
 U 1 1 58F29D8A
 P 5900 4100
 F 0 "R9" V 5980 4100 50  0000 C CNN
@@ -532,7 +497,7 @@ F 5 "A106056CT-ND" V 5900 4100 60  0001 C CNN "DPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L device:R R10
 U 1 1 58F29E18
 P 5950 5900
 F 0 "R10" V 6030 5900 50  0000 C CNN
@@ -545,7 +510,7 @@ F 5 "A106056CT-ND" V 5950 5900 60  0001 C CNN "DPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 58F2A584
 P 1300 1450
 F 0 "R1" V 1380 1450 50  0000 C CNN
@@ -559,7 +524,7 @@ F 6 "279-CRG0805F10K/10" H 1300 1450 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMSS8050-H Q2
+L transistors:MMSS8050-H Q2
 U 1 1 58F2A851
 P 6450 5900
 F 0 "Q2" H 6650 5975 50  0000 L CNN
@@ -572,7 +537,7 @@ F 5 "MMSS8050-H-TPMSCT-ND" H 6450 5900 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMSS8050-H Q1
+L transistors:MMSS8050-H Q1
 U 1 1 58F2B026
 P 6400 4100
 F 0 "Q1" H 6600 4175 50  0000 L CNN
@@ -585,7 +550,7 @@ F 5 "MMSS8050-H-TPMSCT-ND" H 6400 4100 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148 D1
+L WifiRelay:1N4148 D1
 U 1 1 58F2CA9A
 P 7000 3450
 F 0 "D1" H 7000 3550 50  0000 C CNN
@@ -599,7 +564,7 @@ F 6 "Value" H 7000 3450 60  0001 C CNN "Mouser"
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_01X02 J4
+L conn:CONN_01X02 J4
 U 1 1 58F2CEE8
 P 8950 5400
 F 0 "J4" H 8950 5550 50  0000 C CNN
@@ -612,7 +577,7 @@ F 5 "ED2902-ND" H 8950 5400 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J1
+L conn:CONN_01X02 J1
 U 1 1 58F2D073
 P 5750 1100
 F 0 "J1" H 5750 1250 50  0000 C CNN
@@ -627,7 +592,7 @@ $EndComp
 Wire Wire Line
 	1600 4450 1250 4450
 $Comp
-L IRM-02-5 U1
+L WifiRelay:IRM-02-5 U1
 U 1 1 58F43C7E
 P 6300 1150
 F 0 "U1" H 6700 1400 50  0000 C CNN
@@ -640,7 +605,7 @@ F 5 "709-IRM02-5" H 6300 1150 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117-3.3 U2
+L regul:LM1117-3.3 U2
 U 1 1 58F4403E
 P 8000 1050
 F 0 "U2" H 8100 800 50  0000 C CNN
@@ -653,7 +618,7 @@ F 5 "LM1117MPX-3.3/NOPB" H 8000 1050 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L device:CP C1
 U 1 1 58F44EEA
 P 7400 1200
 F 0 "C1" H 7425 1300 50  0000 L CNN
@@ -666,7 +631,7 @@ F 5 "718-1118-1-ND" H 7400 1200 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C2
+L device:CP C2
 U 1 1 58F4530F
 P 8500 1200
 F 0 "C2" H 8525 1300 50  0000 L CNN
@@ -679,7 +644,7 @@ F 5 "718-1921-1-ND" H 8500 1200 60  0001 C CNN "DPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L device:R R2
 U 1 1 58F56212
 P 900 1450
 F 0 "R2" V 980 1450 50  0000 C CNN
@@ -693,7 +658,7 @@ F 6 "279-CRG0805F10K/10" H 900 1450 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L device:R R4
 U 1 1 58F56289
 P 3700 1650
 F 0 "R4" V 3780 1650 50  0000 C CNN
@@ -707,7 +672,7 @@ F 6 "279-CRG0805F10K/10" H 3700 1650 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L device:R R5
 U 1 1 58F56397
 P 4150 4050
 F 0 "R5" V 4230 4050 50  0000 C CNN
@@ -721,7 +686,7 @@ F 6 "279-CRG0805F10K/10" H 4150 4050 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L device:R R6
 U 1 1 58F56412
 P 4200 5850
 F 0 "R6" V 4280 5850 50  0000 C CNN
@@ -735,7 +700,7 @@ F 6 "279-CRG0805F10K/10" H 4200 5850 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L device:R R3
 U 1 1 58F5649A
 P 3350 2600
 F 0 "R3" V 3430 2600 50  0000 C CNN
@@ -749,7 +714,7 @@ F 6 "279-CRG0805F10K/10" H 3350 2600 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L device:R R8
 U 1 1 58F57101
 P 4450 5700
 F 0 "R8" V 4530 5700 50  0000 C CNN
@@ -763,7 +728,7 @@ F 6 "Value" H 4450 5700 60  0001 C CNN "Mouser"
 	0    1    1    0   
 $EndComp
 $Comp
-L TCMT1100 U4
+L WifiRelay:TCMT1100 U4
 U 1 1 58F59894
 P 5300 4000
 F 0 "U4" H 5100 4200 50  0000 L CNN
@@ -777,7 +742,7 @@ F 6 "782-TCMT1100" H 5300 4000 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCMT1100 U5
+L WifiRelay:TCMT1100 U5
 U 1 1 58F59AC7
 P 5350 5800
 F 0 "U5" H 5150 6000 50  0000 L CNN
@@ -795,7 +760,7 @@ Text Notes 6450 1800 0    60   ~ 0
 Text Notes 750  3850 0    60   ~ 0
 Programming\nHeader
 $Comp
-L G5Q-1A K2
+L relays:G5Q-1A K2
 U 1 1 58F7FE2D
 P 7400 5600
 F 0 "K2" H 7550 6100 50  0000 L CNN
@@ -811,7 +776,7 @@ F 8 "G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A" H 8650 5400 60  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L G5Q-1A K1
+L relays:G5Q-1A K1
 U 1 1 58F80D61
 P 7400 3250
 F 0 "K1" H 7550 3150 50  0000 L CNN
@@ -827,19 +792,19 @@ F 8 "G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A" H 8650 3050 60  0001 C C
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6800 3150 7400 3150
+	6800 3150 7000 3150
 Wire Wire Line
 	7000 3150 7000 3300
 Wire Wire Line
 	7000 3600 7000 3750
 Wire Wire Line
-	6500 3750 7400 3750
+	6500 3750 7000 3750
 Connection ~ 7000 3750
 Wire Wire Line
 	6500 3900 6500 3750
 Connection ~ 7000 3150
 $Comp
-L SW_Push SW2
+L switches:SW_Push SW2
 U 1 1 58FAACA8
 P 4500 2450
 F 0 "SW2" H 4550 2550 50  0000 L CNN
@@ -853,7 +818,7 @@ F 6 "Value" H 4500 2450 60  0001 C CNN "Mouser"
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_Push SW1
+L switches:SW_Push SW1
 U 1 1 58FAADCB
 P 900 2550
 F 0 "SW1" H 950 2650 50  0000 L CNN
@@ -867,7 +832,7 @@ F 6 "Value" H 900 2550 60  0001 C CNN "Mouser"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L device:R R11
 U 1 1 58FAAE34
 P 900 2100
 F 0 "R11" V 980 2100 50  0000 C CNN
@@ -881,7 +846,7 @@ F 6 "Value" H 900 2100 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L device:R R12
 U 1 1 58FAB097
 P 4050 2150
 F 0 "R12" V 4130 2150 50  0000 C CNN
@@ -900,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2150 4500 2250
 $Comp
-L GND #PWR022
+L power1:GND #PWR022
 U 1 1 58FAB458
 P 4500 2850
 F 0 "#PWR022" H 4500 2600 50  0001 C CNN
@@ -913,7 +878,7 @@ $EndComp
 Wire Wire Line
 	4500 2850 4500 2650
 $Comp
-L GND #PWR023
+L power1:GND #PWR023
 U 1 1 58FAB8F5
 P 900 3000
 F 0 "#PWR023" H 900 2750 50  0001 C CNN
@@ -926,9 +891,9 @@ $EndComp
 Wire Wire Line
 	900  2250 900  2350
 Wire Wire Line
-	900  2750 900  3000
+	900  2750 900  2900
 $Comp
-L C C4
+L device:C C4
 U 1 1 58FABA83
 P 600 2100
 F 0 "C4" H 625 2200 50  0000 L CNN
@@ -952,9 +917,9 @@ Wire Wire Line
 	1300 1200 900  1200
 Connection ~ 900  1200
 Wire Wire Line
-	9550 1050 9850 1050
+	9550 1050 9700 1050
 $Comp
-L Jumper JP1
+L device:Jumper JP1
 U 1 1 58FAD2ED
 P 9250 1050
 F 0 "JP1" H 9250 1200 50  0000 C CNN
@@ -968,7 +933,7 @@ F 6 "Value" H 9250 1050 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG024
+L power1:PWR_FLAG #FLG024
 U 1 1 58FAD9FD
 P 9700 1200
 F 0 "#FLG024" H 9700 1275 50  0001 C CNN
@@ -988,7 +953,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 5700 7050 5550
 $Comp
-L LED D3
+L device:LED D3
 U 1 1 58FB900D
 P 4700 6000
 F 0 "D3" H 4700 6100 50  0000 C CNN
@@ -1002,7 +967,7 @@ F 6 "Value" H 4700 6000 60  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L device:LED D4
 U 1 1 58FBA489
 P 4600 4200
 F 0 "D4" H 4600 4300 50  0000 C CNN
@@ -1024,7 +989,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 6000 5050 5900
 $Comp
-L LED D5
+L device:LED D5
 U 1 1 58FBC766
 P 8950 1350
 F 0 "D5" H 8950 1450 50  0000 C CNN
@@ -1038,7 +1003,7 @@ F 6 "Value" H 8950 1350 60  0001 C CNN "Mouser"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R13
+L device:R R13
 U 1 1 58FBC847
 P 8950 1800
 F 0 "R13" V 9030 1800 50  0000 C CNN
@@ -1052,7 +1017,7 @@ F 6 "Value" H 8950 1800 60  0001 C CNN "Mouser"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR025
+L power1:GND #PWR025
 U 1 1 58FBCC34
 P 8950 2150
 F 0 "#PWR025" H 8950 1900 50  0001 C CNN
@@ -1069,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 1950 8950 2150
 $Comp
-L ESP-07v2 U3
+L ESP8266:ESP-07v2 U3
 U 1 1 5908EFFC
 P 2300 2050
 F 0 "U3" H 2300 3128 50  0000 C CNN
@@ -1079,4 +1044,44 @@ F 3 "" H 2300 2050 50  0001 C CNN
 	1    2300 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 1050 7700 1050
+Wire Wire Line
+	7100 1350 7100 1400
+Wire Wire Line
+	7400 1350 8000 1350
+Wire Wire Line
+	8500 1050 8950 1050
+Wire Wire Line
+	8000 1350 8500 1350
+Wire Wire Line
+	4150 4200 4450 4200
+Wire Wire Line
+	4200 6000 4550 6000
+Wire Wire Line
+	7050 5100 7400 5100
+Wire Wire Line
+	7050 5700 7400 5700
+Wire Wire Line
+	2300 750  2300 1150
+Wire Wire Line
+	900  1750 900  1950
+Wire Wire Line
+	900  1750 1400 1750
+Wire Wire Line
+	6250 1050 6300 1050
+Wire Wire Line
+	6150 1150 6300 1150
+Wire Wire Line
+	7000 3750 7400 3750
+Wire Wire Line
+	7000 3150 7400 3150
+Wire Wire Line
+	3700 2150 3900 2150
+Wire Wire Line
+	900  2900 900  3000
+Wire Wire Line
+	900  1200 900  1300
+Wire Wire Line
+	9700 1050 9850 1050
 $EndSCHEMATC

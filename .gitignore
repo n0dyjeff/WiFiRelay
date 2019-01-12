@@ -24,4 +24,3 @@ PrivateMQTT.h
 PrivateWifi.h
 
 *.bin
-hw/rescue-backup/
