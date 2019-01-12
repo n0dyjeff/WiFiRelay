@@ -1,0 +1,100 @@
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\sym-lib-table” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\sym-lib-table-2019-01-12-10-57-47”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay.sch” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-2019-01-12-10-57-47.sch”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay.pro” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-2019-01-12-10-57-47.pro”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-cache.lib” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-cache-2019-01-12-10-57-47.lib”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-rescue.lib” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-rescue-2019-01-12-10-57-47.lib”.
+Info: Backing up file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\WifiRelay-rescue.dcm” to file “C:\Users\jeff.DAVIS\Documents\Projects\WiFiRelay\hw\rescue-backup\WifiRelay-rescue-2019-01-12-10-57-47.dcm”.
+Info: Adding library “power1”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\power.lib” to project symbol library table.
+Info: Adding library “device”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\device.lib” to project symbol library table.
+Info: Adding library “transistors”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\transistors.lib” to project symbol library table.
+Info: Adding library “conn”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\conn.lib” to project symbol library table.
+Info: Adding library “linear”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\linear.lib” to project symbol library table.
+Info: Adding library “regul”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\regul.lib” to project symbol library table.
+Info: Adding library “74xx1”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\74xx.lib” to project symbol library table.
+Info: Adding library “cmos4000”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\cmos4000.lib” to project symbol library table.
+Info: Adding library “adc-dac”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\adc-dac.lib” to project symbol library table.
+Info: Adding library “memory”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\memory.lib” to project symbol library table.
+Info: Adding library “xilinx”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\xilinx.lib” to project symbol library table.
+Info: Adding library “microcontrollers”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\microcontrollers.lib” to project symbol library table.
+Info: Adding library “dsp”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\dsp.lib” to project symbol library table.
+Info: Adding library “microchip”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\microchip.lib” to project symbol library table.
+Info: Adding library “analog_switches”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\analog_switches.lib” to project symbol library table.
+Info: Adding library “motorola”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\motorola.lib” to project symbol library table.
+Info: Adding library “texas”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\texas.lib” to project symbol library table.
+Info: Adding library “intel”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\intel.lib” to project symbol library table.
+Info: Adding library “audio”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\audio.lib” to project symbol library table.
+Info: Adding library “interface”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\interface.lib” to project symbol library table.
+Info: Adding library “digital-audio”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\digital-audio.lib” to project symbol library table.
+Info: Adding library “philips”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\philips.lib” to project symbol library table.
+Info: Adding library “display”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\display.lib” to project symbol library table.
+Info: Adding library “cypress”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\cypress.lib” to project symbol library table.
+Info: Adding library “siliconi”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\siliconi.lib” to project symbol library table.
+Info: Adding library “opto”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\opto.lib” to project symbol library table.
+Info: Adding library “atmel”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\atmel.lib” to project symbol library table.
+Info: Adding library “contrib”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\contrib.lib” to project symbol library table.
+Info: Adding library “valves”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\valves.lib” to project symbol library table.
+Info: Adding library “relays”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\relays.lib” to project symbol library table.
+Info: Adding library “switches”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\switches.lib” to project symbol library table.
+Info: Adding library “leds”, file “C:\Users\jeff.DAVIS\Documents\KiCadLibraries\library\leds.lib” to project symbol library table.
+Info: Adding library “ESP8266”, file “C:\Users\jeff.DAVIS\Documents\GitHub\kicad-ESP8266\ESP8266.lib” to project symbol library table.
+Info: Adding library “WifiRelay”, file “${KIPRJMOD}/WifiRelay.lib” to project symbol library table.
+Symbol “CONN_01X06” mapped to symbol library “conn”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “+5V” mapped to symbol library “power1”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “+5V” mapped to symbol library “power1”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “+5V” mapped to symbol library “power1”.
+Symbol “CONN_01X02” mapped to symbol library “conn”.
+Symbol “1N4148” mapped to symbol library “WifiRelay”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “+5V” mapped to symbol library “power1”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “+5V” mapped to symbol library “power1”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “C” mapped to symbol library “device”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “PWR_FLAG” mapped to symbol library “power1”.
+Symbol “PWR_FLAG” mapped to symbol library “power1”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “MMSS8050-H” mapped to symbol library “transistors”.
+Symbol “MMSS8050-H” mapped to symbol library “transistors”.
+Symbol “1N4148” mapped to symbol library “WifiRelay”.
+Symbol “CONN_01X02” mapped to symbol library “conn”.
+Symbol “CONN_01X02” mapped to symbol library “conn”.
+Symbol “IRM-02-5” mapped to symbol library “WifiRelay”.
+Symbol “LM1117-3.3” mapped to symbol library “regul”.
+Symbol “CP” mapped to symbol library “device”.
+Symbol “CP” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “SW_Push” mapped to symbol library “switches”.
+Symbol “SW_Push” mapped to symbol library “switches”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “R” mapped to symbol library “device”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “GND” mapped to symbol library “power1”.
+Symbol “C” mapped to symbol library “device”.
+Symbol “ESP-07v2” mapped to symbol library “ESP8266”.
+Symbol “Songle-SRD-05VDC-SL-C” mapped to symbol library “WifiRelay”.
+Symbol “Songle-SRD-05VDC-SL-C” mapped to symbol library “WifiRelay”.
+Symbol “+3.3V” mapped to symbol library “power1”.
+Symbol “PC827” mapped to symbol library “opto”.
+Symbol “PC827” mapped to symbol library “opto”.
+Symbol “TEST_1P” mapped to symbol library “conn”.
+Symbol “TEST_1P” mapped to symbol library “conn”.
+Symbol “Jumper_Dual” mapped to symbol library “WifiRelay”.
+Symbol “PWR_FLAG” mapped to symbol library “power1”.
+Info: Symbol library table mapping complete!
