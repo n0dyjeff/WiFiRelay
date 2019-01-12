@@ -22,3 +22,6 @@ _autosave-*
 # Private MQTT and WiFi password files
 PrivateMQTT.h
 PrivateWifi.h
+
+*.bin
+hw/rescue-backup/
