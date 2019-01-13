@@ -5,6 +5,12 @@ D Dual Jumper, normally closed
 K jumper bridge link nc
 $ENDCMP
 #
+$CMP MMSS8050-H
+D 20V Vce, 1.5A Ic, NPN, Low Voltage High Current Transistor, SOT-23
+K S8050 NPN Low Voltage High Current Transistor
+F http://www.mccsemi.com/up_pdf/MMSS8050(SOT-23).pdf
+$ENDCMP
+#
 $CMP Songle-SRD-05VDC-SL-C
 D Songle SRD, Single Pole Relay, 10A
 K Single Pole Relay
