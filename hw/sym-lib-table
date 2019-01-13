@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name WifiRelay)(type Legacy)(uri ${KIPRJMOD}/WifiRelay.lib)(options "")(descr ""))
 )
